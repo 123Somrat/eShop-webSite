@@ -51,3 +51,10 @@
     margin-right:10px;
     color:white
 }
+.nav__itemLineOne{
+    font-size: 10px;
+}
+.nav__itemLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
