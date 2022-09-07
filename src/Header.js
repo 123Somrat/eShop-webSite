@@ -1,10 +1,12 @@
 import "./Header.css"
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import StorefrontIcon from '@mui/icons-material/Storefront';
 export default function Header(){
     return (
       <div className="header">
            <div className="header__logo">
-
+                <StorefrontIcon className="header__logoImage"fontSize="large"/>
+                <h2 className="header__logoTitle">eShop</h2>
            </div>
            <div className="header__search">
 
