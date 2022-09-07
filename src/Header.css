@@ -20,3 +20,10 @@
     border:0px;
     color:white
 }
+.header__search{
+    display: flex;
+    flex:1;
+    align-items: center;
+    border-radius: 24px;
+    margin:0 10px;
+}
