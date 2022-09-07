@@ -1,6 +1,7 @@
 import "./Header.css"
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import StorefrontIcon from '@mui/icons-material/Storefront';
+import SearchIcon from '@mui/icons-material/Search';
 export default function Header(){
     return (
       <div className="header">
@@ -9,8 +10,8 @@ export default function Header(){
                 <h2 className="header__logoTitle">eShop</h2>
            </div>
            <div className="header__search">
-
-
+              <input type="text" className="header_searchInput"/>
+              <SearchIcon className="header__searchIcon"/>
            </div>
            <div className="header__nav">
             <div className="nav__item">
@@ -22,8 +23,8 @@ export default function Header(){
                  <span className="nav__itemLineTwo">Shop</span>
             </div>
             <div className="nav__item">
-            <ShoppingBasketIcon fontSize="large"/>
-                 <span className="nav__itemLineTwo">0</span>
+              <ShoppingBasketIcon />
+              <span className="nav__itemLineTwo">0</span>
             </div>
            </div>
 
