@@ -1,4 +1,5 @@
 import "./Header.css"
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 export default function Header(){
     return (
       <div className="header">
@@ -19,7 +20,7 @@ export default function Header(){
                  <span className="nav__itemLineTwo">Shop</span>
             </div>
             <div className="nav__item">
-            <span className="nav__itemLineOne">Basket</span>
+            <ShoppingBasketIcon fontSize="large"/>
                  <span className="nav__itemLineTwo">0</span>
             </div>
            </div>
