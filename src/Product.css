@@ -27,3 +27,10 @@
     border-color: olive;
     color:black
 }
+.product__price{
+    margin-top: 5px;
+}
+.product__info{
+    height: 100px;
+    margin-bottom: 15px;
+}

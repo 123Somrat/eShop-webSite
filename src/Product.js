@@ -8,7 +8,7 @@ export default function Product(){
 
                     <p className="product__price">
                         <small>$</small>
-                          <strong>30</strong>
+                        <strong>30</strong>
                     </p>
                      <div className="product__rating">⭐⭐⭐⭐</div>
                 </div>
