@@ -20,3 +20,10 @@
     object-fit: contain;
     margin: 20px 0 0 15px;
 }
+.product > button{
+    background-color: orange;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: olive;
+    color:black
+}
