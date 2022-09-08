@@ -4,8 +4,12 @@ export default function Product(){
         <div>
             <div className="product">
                 <div className="product__info">
-                    <p>Title</p>
-                    <p className="product__price">$30</p>
+                    <p>Amazon Basics 1 x Compact Laptop Shoulder Bag with Pockets for Storing Accessories up to 17.3" - 17.3" - Black</p>
+
+                    <p className="product__price">
+                        <small>$</small>
+                          <strong>30</strong>
+                    </p>
                      <div className="product__rating">⭐⭐⭐⭐</div>
                 </div>
                 <img src="https://m.media-amazon.com/images/I/91I7CmeK6lL._AC_SX301_SY283_.jpg" alt="black_laptop_shoulder Bag"></img>
