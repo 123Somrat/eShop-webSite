@@ -4,15 +4,21 @@ export default function Product({id,title,price,rating,image}){
         <div>
             <div className="product">
                 <div className="product__info">
-                    <p></p>
+                    <p>{title}</p>
 
                     <p className="product__price">
                         <small>$</small>
-                        <strong></strong>
+                        <strong>{price}</strong>
                     </p>
-                     <div className="product__rating">⭐⭐⭐⭐</div>
+                     <div className="product__rating">
+                        {Array(rating)
+                        .fill()
+                        .map((_,i)=>(
+                            <p>⭐</p>
+                        ))}
+                     </div>
                 </div>
-                <img src="https://m.media-amazon.com/images/I/91I7CmeK6lL._AC_SX301_SY283_.jpg" alt="black_laptop_shoulder Bag"></img>
+                <img src={image}></img>
                 <button>Add To Basket</button>
             </div>
         </div>
