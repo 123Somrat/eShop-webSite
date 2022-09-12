@@ -3,7 +3,7 @@ import "./Home.css"
 import Product from "./Product";
 
 
-export default function Home({id,title,price,rating,image}){
+export default function Home(){
       return(
         <div>
              <div className="home">
