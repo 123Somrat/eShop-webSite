@@ -1,5 +1,5 @@
 import "./Product.css"
-export default function Product(){
+export default function Product({}){
     return(
         <div>
             <div className="product">
