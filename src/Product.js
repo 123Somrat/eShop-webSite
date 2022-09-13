@@ -10,7 +10,7 @@ export default function Product({id,title,price,rating,image}){
                         <small>$</small>
                         <strong>{price}</strong>
                     </p>
-                     <div className="product__rating">
+                     <div  className="product__rating">
                         {Array(rating)
                         .fill()
                         .map((_,i)=>(

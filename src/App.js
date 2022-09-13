@@ -12,25 +12,24 @@ import Checkout from './Checkout';
 function App() {
   return (
     <div className="App">
+       
       <BrowserRouter>
         <Routes>
             <Route path="/" element={ 
-              <>
-                <Header/>
-                 <Home />
-              </>
-            }>
+                  <>
+                    <Header/>
+                    <Home />
+                  </>
+                 }>
+            </Route>   
               <Route path="/checkout" element={
-                 <>
+                   <>
                      <Header/>
                      <Checkout/>
-                 </>
-
-              }>
-
+                    </>
+                  }>
               </Route>
-
-            </Route>    
+   
         </Routes> 
       </BrowserRouter>
     </div>
