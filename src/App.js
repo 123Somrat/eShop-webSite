@@ -7,12 +7,32 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Checkout from './Checkout';
 
 function App() {
   return (
     <div className="App">
-         <Header/>
-         <Home />
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={ 
+              <>
+                <Header/>
+                 <Home />
+              </>
+            }>
+              <Route path="/checkout" element={
+                 <>
+                     <Header/>
+                     <Checkout/>
+                 </>
+
+              }>
+
+              </Route>
+
+            </Route>    
+        </Routes> 
+      </BrowserRouter>
     </div>
   );
 }
