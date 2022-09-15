@@ -1,5 +1,5 @@
 import "./Checkout.css"
-
+import CheckoutProduct  from "./CheckoutProduct"
 export default function Checkout() {
     return (
       <div className="checkout">
@@ -10,6 +10,7 @@ export default function Checkout() {
                     <h2 className="checkout__title">
                         Your Shopping Basket
                     </h2>
+                    <CheckoutProduct />
                </div>
 
         </div>
