@@ -1,5 +1,6 @@
 import "./Checkout.css"
 import CheckoutProduct  from "./CheckoutProduct"
+import Subtotal from "./Subtotal"
 export default function Checkout() {
     return (
       <div className="checkout">
@@ -15,8 +16,7 @@ export default function Checkout() {
 
         </div>
          <div className="checkout__right">
-
-
+             <Subtotal/>
          </div>
       </div>
 
