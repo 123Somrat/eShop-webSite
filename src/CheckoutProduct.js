@@ -18,6 +18,7 @@ export default function  CheckoutProduct(){
                 <div className='.checkoutProduct__rating'>
                      ⭐⭐⭐⭐⭐
                 </div>
+                <button>Remove from Basket</button>
             </div>
       </div>
   )
