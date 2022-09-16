@@ -6,7 +6,7 @@ export default function  CheckoutProduct(){
       <div className="checkoutProduct">
         <img src="https://m.media-amazon.com/images/I/91I7CmeK6lL._AC_SX301_SY283_.jpg"
          alt="Laptop shoulder beg" className="CheckoutProduct__image"/>
-            <div className="checkoutproduct__info">
+            <div className="checkoutProduct__info">
                 <p className="checkoutProduct__title">
                      Amazon Basics 1 x Compact Laptop 
                       Shoulder Bag with Pockets for Storing Accessories up to 17.3
