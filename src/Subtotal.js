@@ -23,7 +23,7 @@ export default function Subtotal() {
             thousandSeparator={true}
             
        />
-
+              <button>Procced to checkout</button>
     </div>
   )
 }
