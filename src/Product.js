@@ -19,7 +19,7 @@ export default function Product({id,title,price,rating,image}){
                      </div>
                 </div>
                 <img src={image}></img>
-                <button>Add To Basket</button>
+                <button onClick={addToBasket}>Add To Basket</button>
             </div>
         </div>
     )
