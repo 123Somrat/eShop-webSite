@@ -2,7 +2,8 @@ import "./Header.css"
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import SearchIcon from '@mui/icons-material/Search';
-import  {Link} from "react-router-dom"
+import  {Link} from "react-router-dom";
+import { useStateValue } from "./StateProvider";
 
 export default function Header(){
     return (
