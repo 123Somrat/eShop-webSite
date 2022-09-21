@@ -5,6 +5,7 @@ export const initialState = {
 }
 
 const reducer = (state,action) => {
+    
     const {type,item} = action;
      switch(type){
         case  "ADD_TO_BASKET":
