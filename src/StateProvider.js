@@ -10,3 +10,7 @@ export const StateProvider = ({reducer,initialState,children}) => {
         {children}
     </StateContext.Provider>
 }
+
+// pull information from the data layer
+
+export const useStateValue = () => useContext(StateContext)
