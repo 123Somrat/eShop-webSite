@@ -4,19 +4,22 @@ import "./CheckoutProduct.css"
 export default function  CheckoutProduct({id,title,price,image,rating}){
   return (
       <div className="checkoutProduct">
-        <img src="https://m.media-amazon.com/images/I/91I7CmeK6lL._AC_SX301_SY283_.jpg"
+        <img src={image}
          alt="Laptop shoulder beg" className="CheckoutProduct__image"/>
             <div className="checkoutProduct__info">
                 <p className="checkoutProduct__title">
-                     Amazon Basics 1 x Compact Laptop 
-                      Shoulder Bag with Pockets for Storing Accessories up to 17.3
+                    {title}
                 </p>
                 <p className="checkoutProduct__price">
                      <small>$</small>
-                     <strong>30</strong>
+                     <strong>{price}</strong>
                 </p>
                 <div className='.checkoutProduct__rating'>
-                     ⭐⭐⭐⭐⭐
+                     {Array(rating)
+                        .fill()
+                        .map((_,i)=>(
+                            <p>⭐</p>
+                        ))}
                 </div>
                 <button>Remove from Basket</button>
             </div>
