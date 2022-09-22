@@ -1,6 +1,7 @@
 import "./Checkout.css"
 import CheckoutProduct  from "./CheckoutProduct"
-import Subtotal from "./Subtotal"
+import Subtotal from "./Subtotal";
+import {useStateValue} from "./StateProvider"
 export default function Checkout() {
     return (
       <div className="checkout">
