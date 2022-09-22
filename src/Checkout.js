@@ -3,6 +3,7 @@ import CheckoutProduct  from "./CheckoutProduct"
 import Subtotal from "./Subtotal";
 import {useStateValue} from "./StateProvider"
 export default function Checkout() {
+    const[{basket},dispatch]=useStateValue;
     return (
       <div className="checkout">
         <div className="checkout__left">
