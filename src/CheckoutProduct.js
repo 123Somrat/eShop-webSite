@@ -1,7 +1,7 @@
 import React from 'react'
 import "./CheckoutProduct.css"
 
-export default function  CheckoutProduct(){
+export default function  CheckoutProduct({id,title,price,image,rating}){
   return (
       <div className="checkoutProduct">
         <img src="https://m.media-amazon.com/images/I/91I7CmeK6lL._AC_SX301_SY283_.jpg"
