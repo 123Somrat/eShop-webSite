@@ -4,9 +4,15 @@ export const initialState = {
     basket : []
 }
 
+// Selector
+
+export const getBasketTotal = (basket)=>{
+    return (basket?.reduce((amount,item) => item.price + amount,0))
+}
+
+
+
 const reducer = (state,action) => {
-    
-    
     const {type,item} = action;
      switch(type){
         case  "ADD_TO_BASKET":
