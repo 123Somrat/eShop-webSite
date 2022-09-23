@@ -36,6 +36,13 @@ const reducer = (state,action) => {
             `Can't remove product(id : ${action.id}) as its not in the basket!`
         )
        }
+       // update the basket
+       return {
+          ...state,
+          basket : newBasket
+       }
+       default :
+       return state;
     }
 }
 
