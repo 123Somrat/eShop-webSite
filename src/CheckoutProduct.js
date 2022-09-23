@@ -21,7 +21,7 @@ export default function  CheckoutProduct({id,title,price,image,rating}){
                             <p>⭐</p>
                         ))}
                 </div>
-                <button>Remove from Basket</button>
+                <button onClick={removeFromBasket}>Remove from Basket</button>
             </div>
       </div>
   )
