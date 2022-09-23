@@ -4,6 +4,10 @@ import { useStateValue } from './StateProvider'
 
 export default function  CheckoutProduct({id,title,price,image,rating}){
     const [{basket},dispatch]=useStateValue();
+
+    const removeFromBasket = () =>{
+
+    }
   return (
       <div className="checkoutProduct">
         <img src={image}
