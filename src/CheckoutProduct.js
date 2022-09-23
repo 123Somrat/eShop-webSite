@@ -1,5 +1,6 @@
 import React from 'react'
 import "./CheckoutProduct.css"
+import { useStateValue } from './StateProvider'
 
 export default function  CheckoutProduct({id,title,price,image,rating}){
   return (
