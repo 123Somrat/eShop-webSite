@@ -3,6 +3,7 @@ import "./CheckoutProduct.css"
 import { useStateValue } from './StateProvider'
 
 export default function  CheckoutProduct({id,title,price,image,rating}){
+    const [{basket},dispatch]=useStateValue();
   return (
       <div className="checkoutProduct">
         <img src={image}
