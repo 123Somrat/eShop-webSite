@@ -20,10 +20,14 @@ const reducer = (state,action) => {
             ...state,
             basket :[...state.basket,item]
            }
-           default:
-        return{
-          state
-        }
+           
+        case "REMOVE_FROM_BASKET":
+            // matching the index from basket
+        const index = state.basket.findIndex(
+            (basketItem)=>basketItem.id===action.id
+        )
+        
+
     }
 }
 
