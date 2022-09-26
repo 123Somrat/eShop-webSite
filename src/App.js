@@ -8,6 +8,8 @@ import {
   Route,
 } from "react-router-dom";
 import Checkout from './Checkout';
+import Login from './Login';
+
 
 function App() {
   return (
@@ -28,6 +30,11 @@ function App() {
                      <Checkout/>
                     </>
                   }>
+              </Route>
+              <Route path="/login" element={
+              
+              <Login />}>
+
               </Route>
    
         </Routes> 
