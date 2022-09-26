@@ -18,9 +18,9 @@ function Login(){
                  <h1>Sign-in</h1>
                 <form>
                      <h5>Email</h5>
-                     <input type="text" onChange={}/>
+                     <input type="text" onChange={e=>setEmail(e.target.value)}/>
                      <h5>Password</h5>
-                     <input type="password" onChange={}/>
+                     <input type="password" onChange={e=>setPassword(e.target.value)}/>
                 </form>
                  <p>
                     By signing-in you agree to the eShop Website Conditions of Use & Sale. Please
