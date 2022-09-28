@@ -9,3 +9,6 @@
     display: flex;
     margin: 30px 0;
 }
+.login__logoImage {
+    color: #ff9f00;
+}
