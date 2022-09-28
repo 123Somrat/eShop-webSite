@@ -21,13 +21,13 @@ function Login(){
                      <input type="text" value={email}onChange={e=>setEmail(e.target.value)}/>
                      <h5>Password</h5>
                      <input type="password" value={password} onChange={e=>setPassword(e.target.value)}/>
-                     <button type="submit" className='login__signInButton'>Sign <In></In></button>
+                     <button type="submit" className='login__signInButton'>Sign in</button>
                 </form>
                  <p>
                     By signing-in you agree to the eShop Website Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                  </p>
-                 <button className='login__registretionButton'>Crete Your eShop Account</button>
+                 <button className='login__registretionButton'>Crete Your eShop A</button>
             </div>
         </div>
         
