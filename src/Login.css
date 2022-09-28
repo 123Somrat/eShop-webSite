@@ -12,3 +12,6 @@
 .login__logoImage {
     color: #ff9f00;
 }
+.login__logoTitle {
+    color: black;
+}
